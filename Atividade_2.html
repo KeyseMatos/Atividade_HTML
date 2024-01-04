@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Document</title>
+</head>
+
+<style>body{background-color: rgb(232, 231, 226)};</style> <!--Cor de fundo da tela-->
+
+<body>
+    <center>
+        <div style="border:double;"></div> <!--Adicionar quadrado-->
+        <font color = black >
+            <h1>Escola Virtual</h1>
+            <h2>Formulário de Pré-Matrícula</h2>
+
+            <hr /> <!--Adicionar linha no site-->
+
+            <strong>Dados Pessoais:</strong>
+
+            <p>Nome do aluno: <input type="text"></p>
+            <p>Nascimento (dd/mm/aaaa): <input type= "text"size="4"> / <input type= "text"size="4"> / <input type= "text"size="6"> </p>
+            <p>Nome da Mãe: <input type="text"></p>
+            <p>Nome do Pai: <input type="text"></p>
+            <p>Telefone: DDD: (<input type="text"size="4">) Tel: <input type="text"size="12"> Ramal:<input type="text"size="12"></p>
+            <p>E-mail: <input type="text"></p>
+    
+            <hr /> <!--Adicionar linha no site-->
+
+            <p>Informações de Matrícula:</p>
+
+            <label for="browser"> Série:</label>
+            <input list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+                <option value="Pré-escolar">
+                <option value="Infantil">
+                <option value="Fundamental 1">
+                <option value="Fundamental 2">
+                <option value="Médio">
+            </datalist>
+            <input type="submit">
+
+            <p>Turno:</p>
+            <form>
+                 <input type="radio" id="manhã" name="fav_language" value="Manhã">
+                 <label for="manhã">Manhã</label><br>
+                 <input type="radio" id="tarde" name="fav_language" value="Tarde">
+                 <label for="tarde">Tarde</label><br>
+            </form>
+            <br>
+            <strong>Atividades Extracurriculares: </strong>
+           
+            <form action="/action_page.php">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Informática</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Música</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> Ballet</label><br>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Pintura</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Judô</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> Futebol</label><br><br>
+                <input type="Enviar formulário" value="Enviar Formulário">
+                <input type="Limpar Campos" value="Limpar Campos">
+              </form> 
+
+
+        </font>
+
+    </center>
+    
+    
+</body>
+</html>
